@@ -1,4 +1,5 @@
 <html>
+	<head><meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1"></head>
   <body>
     <p>you should be able to chat with person in ComfslDev Salesforce from here</p>
     <script type='text/javascript'>
