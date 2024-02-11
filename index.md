@@ -5,13 +5,13 @@
     <script type='text/javascript'>
 	function initEmbeddedMessaging() {
 		try {
-			embeddedservice_bootstrap.settings.language = 'en_US'; 
+			embeddedservice_bootstrap.settings.language = 'en_US';
 			embeddedservice_bootstrap.init(
-				'00D3O0000006Swf',
-				'NorthernHub',
-				'https://abb--comfsldev.sandbox.my.site.com/ESWNorthernHub1707191425001',
+				'00DIS000000J2Dt',
+				'jarvis',
+				'https://pranit4-dev-ed.develop.my.site.com/ESWjarvis1707642992480',
 				{
-					scrt2URL: 'https://abb--comfsldev.sandbox.my.salesforce-scrt.com'
+					scrt2URL: 'https://pranit4-dev-ed.develop.my.salesforce-scrt.com'
 				}
 			);
 		} catch (err) {
@@ -19,7 +19,7 @@
 		}
 	};
 </script>
-<script type='text/javascript' src='https://abb--comfsldev.sandbox.my.site.com/ESWNorthernHub1707191425001/assets/js/bootstrap.min.js' onload='initEmbeddedMessaging()'></script>
+<script type='text/javascript' src='https://pranit4-dev-ed.develop.my.site.com/ESWjarvis1707642992480/assets/js/bootstrap.min.js' onload='initEmbeddedMessaging()'></script>
 
   </body>
 </html>
