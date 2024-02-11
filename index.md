@@ -43,7 +43,7 @@
 </head>
 <body>
   <div class="container">
-    <p>Welcome to Jarvis, your personal AI assistant.</p>
+    <p>Welcome to Jarvis, your personal AI assistant. click on bubble to get started</p>
     <script type='text/javascript'>
       function initEmbeddedMessaging() {
         try {
