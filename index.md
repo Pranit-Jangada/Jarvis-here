@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -45,8 +44,6 @@
 <body>
   <div class="container">
     <p>Welcome to Jarvis, your personal AI assistant.</p>
-    <div class="chat-bubble left">Hello, how can I assist you today?</div>
-    <div class="chat-bubble right">You should be able to chat with me here.</div>
     <script type='text/javascript'>
       function initEmbeddedMessaging() {
         try {
