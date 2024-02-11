@@ -7,8 +7,7 @@
   <style>
     body {
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      background-color: #121212;
-      color: #fff;
+      background-color: #f9f9f9;
       margin: 0;
       padding: 0;
       display: flex;
@@ -18,13 +17,13 @@
     }
     .container {
       max-width: 600px;
-      background-color: #1e1e1e;
+      background-color: #fff;
       border-radius: 15px;
-      box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+      box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
       padding: 40px;
     }
     .chat-bubble {
-      background-color: #303030;
+      background-color: #007bff;
       color: #fff;
       border-radius: 20px;
       padding: 15px 20px;
@@ -52,7 +51,7 @@
     .chat-bubble.left::after {
       right: -10px;
       top: 50%;
-      border-left: 10px solid #303030;
+      border-left: 10px solid #007bff;
       transform: translateY(-50%);
     }
     .chat-bubble.right::after {
@@ -73,7 +72,7 @@
       padding: 15px 0;
       border: none;
       border-radius: 30px;
-      background-color: #4caf50;
+      background-color: #007bff;
       color: #fff;
       font-size: 18px;
       font-weight: bold;
@@ -81,7 +80,7 @@
       transition: background-color 0.3s ease;
     }
     .start-button:hover {
-      background-color: #43a047;
+      background-color: #0056b3;
     }
   </style>
 </head>
